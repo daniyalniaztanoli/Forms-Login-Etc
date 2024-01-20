@@ -22,10 +22,10 @@ const SignUp = () => {
       <input className='focus:bg-gray-300 w-full outline outline-1 rounded-xl p-2' type="text" />
     </label>
     <label className='text-base space-y-3'>Password <span className='text-red-700'>*</span><br />
-      <input className='focus:bg-gray-300 w-full outline outline-1 rounded-xl p-2' type="text" />
+      <input className='focus:bg-gray-300 w-full outline outline-1 rounded-xl p-2' type="password" />
     </label>
-    <label className='text-base space-y-3'>Confrim Password <span className='text-red-700'>*</span><br />
-      <input className='focus:bg-gray-300 w-full outline outline-1 rounded-xl p-2' type="text" />
+    <label className='text-base space-y-3'>Confirm Password <span className='text-red-700'>*</span><br />
+      <input className='focus:bg-gray-300 w-full outline outline-1 rounded-xl p-2' type="password" />
     </label>
     <button className='hover:bg-neutral-800 bg-black text-white text-center rounded-xl p-3'>SignUp</button>
   </div>
