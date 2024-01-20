@@ -16,7 +16,7 @@ const Forgot = () => {
   <span className='text-gray-500 md:text-sm text-xs'>Enter Your registerd email address. we'll send you a code to reset your password.</span>
   <div className='flex flex-col space-y-5'>
     <label className='text-base space-y-3'>Email Address <span className='text-red-700'>*</span><br />
-      <input className='focus:bg-gray-300 w-full outline outline-1 rounded-xl p-2' type="text" />
+      <input className='focus:bg-gray-300 w-full outline outline-1 rounded-xl p-2' type="email" />
     </label>
     <button className='hover:bg-neutral-800 bg-black text-white text-center rounded-xl p-3'>Recover Password</button>
   </div>
