@@ -19,7 +19,7 @@ const SignUp = () => {
       <input className='focus:bg-gray-300 w-full outline outline-1 rounded-xl p-2' type="text" />
     </label>
     <label className='text-base space-y-3'>Email Address <span className='text-red-700'>*</span><br />
-      <input className='focus:bg-gray-300 w-full outline outline-1 rounded-xl p-2' type="text" />
+      <input className='focus:bg-gray-300 w-full outline outline-1 rounded-xl p-2' type="email" />
     </label>
     <label className='text-base space-y-3'>Password <span className='text-red-700'>*</span><br />
       <input className='focus:bg-gray-300 w-full outline outline-1 rounded-xl p-2' type="password" />
