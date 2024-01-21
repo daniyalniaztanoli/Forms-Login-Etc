@@ -13,7 +13,7 @@ const Forgot = () => {
       <div className='space-y-7 md:w-[60%] w-[90%]'>
         <Link to='/SignUp'><span className='cursor-pointer hover:text-blue-700'><i class="fa-solid fa-chevron-left"></i>  Back</span></Link>
   <h1 className='font-bold md:text-3xl text-2xl'>Forgot Passwod</h1>
-  <span className='text-gray-500 md:text-sm text-xs'>Enter Your registerd email address. we'll send you a code to reset your password.</span>
+  <span className='text-gray-600 md:text-sm text-xs'>Enter Your registerd email address. we'll send you a code to reset your password.</span>
   <div className='flex flex-col space-y-5'>
     <label className='text-base space-y-3'>Email Address <span className='text-red-700'>*</span><br />
       <input className='focus:bg-gray-300 w-full outline outline-1 rounded-xl p-2' type="email" />
